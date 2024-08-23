@@ -64,7 +64,7 @@ class App extends Component<{}, AppState> {
           doneTaskArray={this.state.doneTaskArray}
           handleTaskStatusChange={this.handleTaskStatusChange}
           handleAnotherUser={this.handleAnotherUser}
-          setTodoTaskArray={todoTaskArray => this.setState({ todoTaskArray })}
+          setTodoTaskArray={todoTaskArray => this.setState({ })}
         />
       </div>
     );
